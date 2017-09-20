@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4E0C871F7210FD00F6F126 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4E0C861F7210FD00F6F126 /* ViewModelTests.swift */; };
 		0B97D32D1F6BCA61001A2979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97D32C1F6BCA61001A2979 /* AppDelegate.swift */; };
 		0B97D32F1F6BCA61001A2979 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97D32E1F6BCA61001A2979 /* ViewController.swift */; };
 		0B97D3321F6BCA61001A2979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B97D3301F6BCA61001A2979 /* Main.storyboard */; };
 		0B97D3341F6BCA61001A2979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B97D3331F6BCA61001A2979 /* Assets.xcassets */; };
 		0B97D3371F6BCA61001A2979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B97D3351F6BCA61001A2979 /* LaunchScreen.storyboard */; };
-		0B97D3421F6BCA61001A2979 /* MVVMState_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97D3411F6BCA61001A2979 /* MVVMState_ExampleTests.swift */; };
 		0B97D34D1F6BCB7A001A2979 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97D34C1F6BCB79001A2979 /* AppState.swift */; };
 		0B97D34F1F6BCC0D001A2979 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97D34E1F6BCC0D001A2979 /* AppData.swift */; };
 		0B97D3511F6BDCD7001A2979 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97D3501F6BDCD7001A2979 /* ViewModel.swift */; };
@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B4E0C861F7210FD00F6F126 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
 		0B97D3291F6BCA61001A2979 /* MVVMState Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVMState Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B97D32C1F6BCA61001A2979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B97D32E1F6BCA61001A2979 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		0B97D3361F6BCA61001A2979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B97D3381F6BCA61001A2979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B97D33D1F6BCA61001A2979 /* MVVMState ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVMState ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B97D3411F6BCA61001A2979 /* MVVMState_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMState_ExampleTests.swift; sourceTree = "<group>"; };
 		0B97D3431F6BCA61001A2979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B97D34C1F6BCB79001A2979 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		0B97D34E1F6BCC0D001A2979 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		0B97D3401F6BCA61001A2979 /* MVVMState ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				0B97D3411F6BCA61001A2979 /* MVVMState_ExampleTests.swift */,
+				0B4E0C861F7210FD00F6F126 /* ViewModelTests.swift */,
 				0B97D3431F6BCA61001A2979 /* Info.plist */,
 			);
 			path = "MVVMState ExampleTests";
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B97D3421F6BCA61001A2979 /* MVVMState_ExampleTests.swift in Sources */,
+				0B4E0C871F7210FD00F6F126 /* ViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

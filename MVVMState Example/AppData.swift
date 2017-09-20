@@ -8,7 +8,12 @@
 
 import Foundation
 
-struct AppData {
+struct AppData: Equatable {
     let secondsRemaining: Int
     let initialSecondsRemaining: Int
+}
+
+func ==(lhs: AppData, rhs: AppData) -> Bool {
+    return lhs.initialSecondsRemaining == rhs.initialSecondsRemaining &&
+        lhs.secondsRemaining == rhs.secondsRemaining
 }
