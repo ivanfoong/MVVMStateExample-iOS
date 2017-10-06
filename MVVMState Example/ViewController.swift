@@ -32,7 +32,7 @@ class ViewController: UIViewController {
             self?.handleTick()
         }
         self.textField.addTarget(self, action: #selector(textFieldDidBeginEditing(textField:)), for: .editingDidBegin)
-        self.textField.addTarget(self, action: #selector(textFieldDidEndEditing(textField:)), for: .editingDidEndOnExit)
+        self.textField.addTarget(self, action: #selector(textFieldDidEndEditing(textField:)), for: .editingDidEnd)
         self.updateUI()
     }
     
@@ -46,6 +46,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
+        if self.textField.isEditing {
+            self.textField.resignFirstResponder()
+        }
         self.viewModel = self.viewModel.buttonTapped()
     }
     
